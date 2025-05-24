@@ -17,9 +17,17 @@
   margin: 0;
 }
 
-div.section .gist .gist-file {
-  border: none;
+.gist {
+  font-size:13px;
+  line-height:18px !important;
+  width:53em
 }
+
+.gist .gist-file {
+  border: none;
+  background: #11111; !important;
+}
+
 div.section .gist .gist-file .gist-meta {
   -moz-border-radius-bottomleft:8px;
   -moz-border-radius-bottomright:8px;
