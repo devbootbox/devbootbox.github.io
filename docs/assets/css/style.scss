@@ -3,7 +3,7 @@
 ---
 
 @import "{{ site.theme }}";
-.gist .gist-file .gist-data pre{
+div.section .gist .gist-file .gist-data pre{
   font-family: consolas, monospace, sans-serif !important;
   -moz-border-radius: 6px;
   -moz-border-radius-bottomleft: 6px;
@@ -21,16 +21,13 @@
   line-height:18px !important;
 }
 
-.gist h1{
-  margin: 15px 0 !important;
-}
-
-.gist h2{
-  margin: 10px;
+.gist h1,h2,h3{
+  margin: 18px 0 !important;
+  color: #000000;
 }
 
 .gist p{
-  margin: 10px 0 !important;
+  margin: 18px 0 !important;
 }
 
 .gist .gist-file {
