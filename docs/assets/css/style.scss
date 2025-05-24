@@ -10,7 +10,7 @@
   -moz-border-radius-bottomright: 6px;
   -webkit-border-radius: 6px;
   -webkit-border-bottom-left-radius: 6px;
-  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-right-radius: 6px;
   overflow: auto !important;
   color: #c2c2c2;
   background: #000000 !important;
@@ -26,6 +26,10 @@
 }
 
 .gist h2{
+  margin: 10px;
+}
+
+.gist p{
   margin: 10px 0 !important;
 }
 
@@ -34,7 +38,7 @@
   background: #111111 !important;
 }
 
-div.section .gist .gist-file .gist-meta {
+.gist .gist-file .gist-meta {
   -moz-border-radius-bottomleft:8px;
   -moz-border-radius-bottomright:8px;
   -webkit-border-bottom-left-radius:8px;
@@ -42,10 +46,10 @@ div.section .gist .gist-file .gist-meta {
   background-color: #000000;
   color: #c7c7c7;
 }
-div.section .gist .gist-file .gist-meta a{
+.gist .gist-file .gist-meta a{
   color: #ee30a7;
 }
-div.section .gist .gist-file .gist-meta  a:hover {
+.gist .gist-file .gist-meta  a:hover {
   color:#FFF462;
 }
 
