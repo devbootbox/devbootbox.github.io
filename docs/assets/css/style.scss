@@ -1,8 +1,9 @@
 ---
+# Foo
 ---
 
 @import "{{ site.theme }}";
-div.section .gist .gist-file .gist-data pre{
+.gist .gist-file .gist-data pre{
   font-family: consolas, monospace, sans-serif !important;
   -moz-border-radius: 8px;
   -moz-border-radius-bottomleft: 0;
